@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    font-family: 'Comfortaa', cursive;
+}
+
+.square{
+    width: 10%;
+    padding-bottom: 10%;
+    background-color: purple;
+    margin: 1.66%;
+    transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 0.5s;
+    border-radius: 50%;
+}
+
+#colorDisplay{
+    color: white;
+}
+
+#msg{
+    color: red;
+    display: block;
+    text-align: center;
+}
+
+.panel{
+    background-color: white;
+}
+
+.selected{
+    background-color: skyblue;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    background-color: skyblue;
+    margin: 0;
+}
+
+button{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+/* get rid of default selected frame */
+button:focus{
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background-color: skyblue;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;;
+}
+
+#name{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+}
+
+#website{
+    color: white;
+    text-decoration: underline;
+}
